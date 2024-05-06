@@ -1,6 +1,6 @@
 module "aws-databricks" {
   source  = "dataforgelabs/aws-databricks/dataforge"
-  version = "1.0.1"
+  version = "1.0.2"
   databricks_account_id            = var.databricks_account_id
   databricks_client_id             = var.databricks_client_id
   databricks_client_secret         = var.databricks_client_secret
