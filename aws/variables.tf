@@ -2,11 +2,15 @@ variable "databricks_account_id" {
   type = string
 }
 
-variable "databricks_account_user" {
+variable "databricks_workspace_admin_email" {
   type = string
 }
 
-variable "databricks_account_password" {
+variable "databricks_client_id" {
+  type = string
+}
+
+variable "databricks_client_secret" {
   type = string
 }
 
